@@ -29,88 +29,88 @@ var EXPRESSION_MONOSYLLABIC_ONE = new RegExp(
   'eau|' +
   '^busi$|' +
   '(' +
-    '[aeiouy]' +
-    '(' +
-      'b|' +
-      'c|' +
-      'ch|' +
-      'dg|' +
-      'f|' +
-      'g|' +
-      'gh|' +
-      'gn|' +
-      'k|' +
-      'l|' +
-      'lch|' +
-      'll|' +
-      'lv|' +
-      'm|' +
-      'mm|' +
-      'n|' +
-      'nc|' +
-      'ng|' +
-      'nch|' +
-      'nn|' +
-      'p|' +
-      'r|' +
-      'rb|' +
-      'rc|' +
-      'rn|' +
-      'rs|' +
-      'rv|' +
-      's|' +
-      'sc|' +
-      'sh|' +
-      'sk|' +
-      'sl|' +
-      'squ|' +
-      'ss|' +
-      'th|' +
-      'v|' +
-      'w|' +
-      'x|' +
-      'y|' +
-      'z' +
-    ')' +
-    'ed$' +
+  '[aeiouy]' +
+  '(' +
+  'b|' +
+  'c|' +
+  'ch|' +
+  'dg|' +
+  'f|' +
+  'g|' +
+  'gh|' +
+  'gn|' +
+  'k|' +
+  'l|' +
+  'lch|' +
+  'll|' +
+  'lv|' +
+  'm|' +
+  'mm|' +
+  'n|' +
+  'nc|' +
+  'ng|' +
+  'nch|' +
+  'nn|' +
+  'p|' +
+  'r|' +
+  'rb|' +
+  'rc|' +
+  'rn|' +
+  'rs|' +
+  'rv|' +
+  's|' +
+  'sc|' +
+  'sh|' +
+  'sk|' +
+  'sl|' +
+  'squ|' +
+  'ss|' +
+  'th|' +
+  'v|' +
+  'w|' +
+  'x|' +
+  'y|' +
+  'z' +
+  ')' +
+  'ed$' +
   ')|' +
   '(' +
-    '[aeiouy]' +
-    '(' +
-      'b|' +
-      'ch|' +
-      'd|' +
-      'f|' +
-      'gh|' +
-      'gn|' +
-      'k|' +
-      'l|' +
-      'lch|' +
-      'll|' +
-      'lv|' +
-      'm|' +
-      'mm|' +
-      'n|' +
-      'nch|' +
-      'nn|' +
-      'p|' +
-      'r|' +
-      'rn|' +
-      'rs|' +
-      'rv|' +
-      's|' +
-      'sc|' +
-      'sk|' +
-      'sl|' +
-      'squ|' +
-      'ss|' +
-      'st|' +
-      't|' +
-      'th|' +
-      'v|' +
-      'y' +
-    ')' +
-    'es$' +
+  '[aeiouy]' +
+  '(' +
+  'b|' +
+  'ch|' +
+  'd|' +
+  'f|' +
+  'gh|' +
+  'gn|' +
+  'k|' +
+  'l|' +
+  'lch|' +
+  'll|' +
+  'lv|' +
+  'm|' +
+  'mm|' +
+  'n|' +
+  'nch|' +
+  'nn|' +
+  'p|' +
+  'r|' +
+  'rn|' +
+  'rs|' +
+  'rv|' +
+  's|' +
+  'sc|' +
+  'sk|' +
+  'sl|' +
+  'squ|' +
+  'ss|' +
+  'st|' +
+  't|' +
+  'th|' +
+  'v|' +
+  'y' +
+  ')' +
+  'es$' +
   ')',
   'g'
 );
@@ -118,43 +118,43 @@ var EXPRESSION_MONOSYLLABIC_ONE = new RegExp(
 var EXPRESSION_MONOSYLLABIC_TWO = new RegExp(
   '[aeiouy]' +
   '(' +
-    'b|' +
-    'c|' +
-    'ch|' +
-    'd|' +
-    'dg|' +
-    'f|' +
-    'g|' +
-    'gh|' +
-    'gn|' +
-    'k|' +
-    'l|' +
-    'll|' +
-    'lv|' +
-    'm|' +
-    'mm|' +
-    'n|' +
-    'nc|' +
-    'ng|' +
-    'nn|' +
-    'p|' +
-    'r|' +
-    'rc|' +
-    'rn|' +
-    'rs|' +
-    'rv|' +
-    's|' +
-    'sc|' +
-    'sk|' +
-    'sl|' +
-    'squ|' +
-    'ss|' +
-    'st|' +
-    't|' +
-    'th|' +
-    'v|' +
-    'y|' +
-    'z' +
+  'b|' +
+  'c|' +
+  'ch|' +
+  'd|' +
+  'dg|' +
+  'f|' +
+  'g|' +
+  'gh|' +
+  'gn|' +
+  'k|' +
+  'l|' +
+  'll|' +
+  'lv|' +
+  'm|' +
+  'mm|' +
+  'n|' +
+  'nc|' +
+  'ng|' +
+  'nn|' +
+  'p|' +
+  'r|' +
+  'rc|' +
+  'rn|' +
+  'rs|' +
+  'rv|' +
+  's|' +
+  'sc|' +
+  'sk|' +
+  'sl|' +
+  'squ|' +
+  'ss|' +
+  'st|' +
+  't|' +
+  'th|' +
+  'v|' +
+  'y|' +
+  'z' +
   ')' +
   'e$',
   'g'
@@ -164,29 +164,29 @@ var EXPRESSION_MONOSYLLABIC_TWO = new RegExp(
  * counted as one syllable, but should be counted as two. */
 var EXPRESSION_DOUBLE_SYLLABIC_ONE = new RegExp(
   '(' +
-    '(' +
-      '[^aeiouy]' +
-    ')\\2l|' +
-    '[^aeiouy]ie' +
-    '(' +
-      'r|' +
-      'st|' +
-      't' +
-    ')|' +
-    '[aeiouym]bl|' +
-    'eo|' +
-    'ism|' +
-    'asm|' +
-    'thm|' +
-    'dnt|' +
-    'snt|' +
-    'uity|' +
-    'dea|' +
-    'gean|' +
-    'oa|' +
-    'ua|' +
-    'eings?|' +
-    '[aeiouy]sh?e[rs]' +
+  '(' +
+  '[^aeiouy]' +
+  ')\\2l|' +
+  '[^aeiouy]ie' +
+  '(' +
+  'r|' +
+  'st|' +
+  't' +
+  ')|' +
+  '[aeiouym]bl|' +
+  'eo|' +
+  'ism|' +
+  'asm|' +
+  'thm|' +
+  'dnt|' +
+  'snt|' +
+  'uity|' +
+  'dea|' +
+  'gean|' +
+  'oa|' +
+  'ua|' +
+  'eings?|' +
+  '[aeiouy]sh?e[rs]' +
   ')$',
   'g'
 );
@@ -195,9 +195,9 @@ var EXPRESSION_DOUBLE_SYLLABIC_TWO = new RegExp(
   '[^gq]ua[^auieo]|' +
   '[aeiou]{3}|' +
   '^(' +
-    'ia|' +
-    'mc|' +
-    'coa[dglx].' +
+  'ia|' +
+  'mc|' +
+  'coa[dglx].' +
   ')',
   'g'
 );
@@ -224,35 +224,35 @@ var EXPRESSION_DOUBLE_SYLLABIC_FOUR = /[^s]ia/;
 var EXPRESSION_SINGLE = new RegExp(
   '^' +
   '(' +
-    'un|' +
-    'fore|' +
-    'ware|' +
-    'none?|' +
-    'out|' +
-    'post|' +
-    'sub|' +
-    'pre|' +
-    'pro|' +
-    'dis|' +
-    'side' +
+  'un|' +
+  'fore|' +
+  'ware|' +
+  'none?|' +
+  'out|' +
+  'post|' +
+  'sub|' +
+  'pre|' +
+  'pro|' +
+  'dis|' +
+  'side' +
   ')' +
   '|' +
   '(' +
-    'ly|' +
-    'less|' +
-    'some|' +
-    'ful|' +
-    'ers?|' +
-    'ness|' +
-    'cians?|' +
-    'ments?|' +
-    'ettes?|' +
-    'villes?|' +
-    'ships?|' +
-    'sides?|' +
-    'ports?|' +
-    'shires?|' +
-    'tion(ed|s)?' +
+  'ly|' +
+  'less|' +
+  'some|' +
+  'ful|' +
+  'ers?|' +
+  'ness|' +
+  'cians?|' +
+  'ments?|' +
+  'ettes?|' +
+  'villes?|' +
+  'ships?|' +
+  'sides?|' +
+  'ports?|' +
+  'shires?|' +
+  'tion(ed|s)?' +
   ')' +
   '$',
   'g'
@@ -262,36 +262,36 @@ var EXPRESSION_SINGLE = new RegExp(
 var EXPRESSION_DOUBLE = new RegExp(
   '^' +
   '(' +
-    'above|' +
-    'anti|' +
-    'ante|' +
-    'counter|' +
-    'hyper|' +
-    'afore|' +
-    'agri|' +
-    'infra|' +
-    'intra|' +
-    'inter|' +
-    'over|' +
-    'semi|' +
-    'ultra|' +
-    'under|' +
-    'extra|' +
-    'dia|' +
-    'micro|' +
-    'mega|' +
-    'kilo|' +
-    'pico|' +
-    'nano|' +
-    'macro' +
+  'above|' +
+  'anti|' +
+  'ante|' +
+  'counter|' +
+  'hyper|' +
+  'afore|' +
+  'agri|' +
+  'infra|' +
+  'intra|' +
+  'inter|' +
+  'over|' +
+  'semi|' +
+  'ultra|' +
+  'under|' +
+  'extra|' +
+  'dia|' +
+  'micro|' +
+  'mega|' +
+  'kilo|' +
+  'pico|' +
+  'nano|' +
+  'macro' +
   ')' +
   '|' +
   '(' +
-    'fully|' +
-    'berry|' +
-    'woman|' +
-    'women|' +
-    'edly' +
+  'fully|' +
+  'berry|' +
+  'woman|' +
+  'women|' +
+  'edly' +
   ')' +
   '$',
   'g'
@@ -314,6 +314,7 @@ var EXPRESSION_NONALPHABETIC = /[^a-z]/g;
 function syllables(value) {
   var values = normalize(String(value)).toLowerCase()
     .replace(APOSTROPHE, '').split(SPLIT);
+
   var length = values.length;
   var index = -1;
   var total = 0;
@@ -396,24 +397,26 @@ function syllable(value) {
   /* Make sure at least on is returned. */
   return count || 1;
 
- /* Define scoped counters, to be used
-  * in `String#replace()` calls.
-  * The scoped counter removes the matched value
-  * from the input. */
+  /* Define scoped counters, to be used
+   * in `String#replace()` calls.
+   * The scoped counter removes the matched value
+   * from the input. */
   function countFactory(addition) {
     return counter;
+
     function counter() {
       count += addition;
       return '';
     }
   }
 
- /* Define scoped counters, to be used
-  * in `String#replace()` calls.
-  * The scoped counter does not remove the matched
-  * value from the input. */
+  /* Define scoped counters, to be used
+   * in `String#replace()` calls.
+   * The scoped counter does not remove the matched
+   * value from the input. */
   function returnFactory(addition) {
     return returner;
+
     function returner($0) {
       count += addition;
       return $0;
